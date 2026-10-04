@@ -1,0 +1,14 @@
+name: Glider
+version: 1.0.0
+main: com.glider.GliderPlugin
+api-version: '1.21'
+description: A craftable glider that slows your fall and lets you travel fast through the air.
+commands:
+  glider:
+    description: Gives you (or another player) a glider.
+    usage: /glider [player]
+    permission: glider.give
+permissions:
+  glider.give:
+    description: Allows using /glider
+    default: op
